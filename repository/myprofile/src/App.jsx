@@ -11,7 +11,7 @@ function App() {
       
         <BrowserRouter>
           <Navbar/>
-          <div className='content px-[6%]'>
+          <div className='content px-[6%] h-[calc(100vh-88px)] relative'>
             <Routes>
               <Route index element={<Home/>}/>
               <Route path='/projects' element={<Projects/>}/>
