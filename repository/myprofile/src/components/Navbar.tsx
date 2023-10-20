@@ -10,8 +10,8 @@ const Navbar = () => {
     
     return ( 
         <nav className='mt-3 bg-white  w-full p-2 px-[6%] flex justify-between items-center mb-4 '>
-            <div className="flex items-center gap-2">
-                <div className='w-10 h-10 rounded-full border border-black'></div>
+            <div className="flex items-center gap-2 cursor-pointer">
+                <img src="../assets/Cesar.jpg" className='w-10 h-10 rounded-full border  border-black' alt="foto de cesar" />
                 <div className='h-6 border border-primary'></div>
                 <h2 className='text-lg'>César Mâncio Silva</h2>
             </div>

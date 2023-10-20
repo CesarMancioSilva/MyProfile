@@ -7,11 +7,11 @@ function App() {
 
 
   return (
-    <div className='border'>
+    <div className=''>
       
         <BrowserRouter>
           <Navbar/>
-          <div className='content px-[6%] h-[calc(100vh-88px)] relative'>
+          <div className='content px-[6%]  relative'>
             <Routes>
               <Route index element={<Home/>}/>
               <Route path='/projects' element={<Projects/>}/>
