@@ -6,7 +6,7 @@ import thumb from '../assets/thumb.png'
 const VideoPlayer = () => {
     return (
        
-       <Video loop poster={thumb} className='w-[430px] rounded-md m-auto mt-4'>
+       <Video loop poster={thumb} className='max-h-[345.4px] max-w-[613px] rounded-md m-auto mt-4'>
         
         <source src={introVideo} type='video/webm'/>
        </Video>
