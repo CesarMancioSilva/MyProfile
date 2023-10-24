@@ -25,9 +25,9 @@ const Navbar = () => {
                     <div className='h-6 border border-primary '></div>
                     <h2 className='text-lg flex gap-1'>César <span className='hidden sm:block'> Mâncio Silva</span></h2>
                 </div>
-                <div className={stateProf == true ? 'listProfile w-full flex flex-col':'listProfile w-full flex flex-col hidden'}>
+                <div className={stateProf == true ? 'listProfile w-full flex flex-col bg-white':' bg-white listProfile w-full flex flex-col hidden'}>
                     <p className='w-full border-b pb-1'>cesarmanciosilva@gmail</p>
-                    <div className=' mt-3  rounded-lg w-full'>
+                    <div className=' mt-3   rounded-lg w-full'>
                         
                         <ul >
                             {iconBtn && iconBtn.map(btn=>(
