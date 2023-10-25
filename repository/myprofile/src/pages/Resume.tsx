@@ -35,7 +35,7 @@ const Resume = () => {
                 <div className='w-3/5 border gap-3 flex p-3 flex-wrap'>
                     <div className='w-[calc(50%-6px)] h-fit flex flex-col flex-wrap gap-2 '>
                     <h1 className='text-2xl text-primary font-bold border-b border-primary'>Formação</h1>
-
+                    
                     {dataIconList && dataIconList.filter(data => data.type == 'formação').map(datafiltered=>(
                     <div className='w-full items-center flex'>
                         <div className='w-16 h-16 border border-black'></div>
@@ -109,6 +109,15 @@ const Resume = () => {
                     <VideoPlayer/>
                     <h1 className='text-2xl text-primary font-bold flex justify-between border-b'>Sobre mim <span>.</span></h1>
                         <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel faucibus neque. Integer nec gravida nibh. Aenean lacinia tempus nisl, consectetur tempus arcu cursus eu.</p>
+                    <div className='w-full flex border border-black'>
+                        <div className='w-1/2 border border-black'>
+                            <h1 className='text-2xl text-primary font-bold flex justify-between border-b'>Sobre mim </h1>
+                        </div>
+                        <div className='w-1/2 border border-black'>
+                            <h1 className='text-2xl text-primary font-bold flex justify-between border-b'>Sobre mim </h1>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

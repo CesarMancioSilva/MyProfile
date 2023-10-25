@@ -19,7 +19,7 @@ const Navbar = () => {
     const [stateProf,setStateProf] = useState(false)
     return ( 
         <nav className='mt-3 bg-white  w-full p-2 px-[6%] 2xl:px-[10%] flex justify-end items-center mb-4 relative'>
-            <div onClick={()=>setStateProf(true)} onMouseLeave={()=>setStateProf(false)}className={stateProf == true ? 'transition profile shadow shadow-zinc-400 flex flex-col bg-white p-3 gap-2 rounded-md  z-10 absolute left-[6%] top-0 transition-all ease-in-out duration-1000':"transition transition-all ease-in-out duration-1000 profile hover:shadow hover:shadow-zinc-400 flex flex-col bg-white p-3 gap-2 rounded-md  z-10 absolute left-[6%] top-0"}>
+            <div onClick={()=>setStateProf(true)} onMouseLeave={()=>setStateProf(false)}className={stateProf == true ? ' transition profile shadow shadow-zinc-400 flex flex-col bg-white p-3 gap-2 rounded-md  z-10 absolute left-[6%] top-0 transition-all ease-in-out duration-1000':"cursor-pointer transition transition-all ease-in-out duration-1000 profile hover:shadow hover:shadow-zinc-400 flex flex-col bg-white p-3 gap-2 rounded-md  z-10 absolute left-[6%] top-0"}>
                 <div className='flex gap-2 items-center cursor-pointer'>
                     <img src={Cesar} className='w-10 h-10 rounded-full border  border-black' alt="foto de cesar" />
                     <div className='h-6 border border-primary '></div>
